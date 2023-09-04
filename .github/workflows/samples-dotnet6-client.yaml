@@ -66,7 +66,7 @@ jobs:
           # build C# API client (.net 5.0 with ConditionalSerialization)
           - samples/client/petstore/csharp/OpenAPIClient-ConditionalSerialization/
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - uses: actions/setup-dotnet@v3.2.0
         with:
           dotnet-version: '6.0.x'
